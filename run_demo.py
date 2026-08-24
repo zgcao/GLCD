@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the portable Lake Erie chlorophyll-a reviewer demo."""
+"""Run the portable Lake Erie chlorophyll-a demo."""
 from __future__ import annotations
 import argparse
 import os

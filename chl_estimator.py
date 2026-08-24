@@ -1,4 +1,4 @@
-"""Portable chlorophyll-a inference used by the Nature reviewer demo.
+"""Portable chlorophyll-a inference used by the reproducible demo.
 This module preserves the numerical core of
 ``3-image_est_chl_examples_local.py`` while removing machine-specific paths.
 """
@@ -68,7 +68,7 @@ def estimate_chla(
                 "chla_dnn": (spatial_dims, chla),
             },
             attrs={
-                "title": "DNN chlorophyll-a estimate for the Lake Erie reviewer demo",
+                "title": "DNN chlorophyll-a estimate for the Lake Erie demo",
                 "source_input": input_file.name,
                 "algorithm": "OLCI-MERIS Chl-a DNN",
                 "units_note": "chla_dnn is in mg m-3",

@@ -10,7 +10,8 @@ scene over Lake Erie acquired on 4 July 2023. The source product identifier is:
 The included variables are only latitude, longitude, and the 11 water
 reflectance bands required by the model. Water reflectance was generated from
 the Sentinel-3 Level-1 product with POLYMER 4.16. The subset was selected solely
-to make the reviewer demo small and fast. Copernicus/Sentinel source data remain
+to make the reproducible demo small and fast. Copernicus/Sentinel source data
+remain
 subject to their applicable data-access and attribution terms; the MIT license
 in this repository applies to the software, not to third-party source data.
 
