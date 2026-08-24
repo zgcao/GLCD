@@ -1,6 +1,6 @@
 # Verification record
 
-Verification date: 24 August 2026 (Asia/Shanghai)
+Verification date: 24 August 2026
 
 ## Clean environment
 
