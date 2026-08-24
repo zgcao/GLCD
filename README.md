@@ -1,7 +1,6 @@
-# Global Lake Chlorophyll-a: Nature code-review demo
+# Global Lake Chlorophyll-a retrievals from MERIS and OLCI Rrs
 
-This repository is a compact, reviewer-ready demonstration of the
-chlorophyll-a (Chl-a) inference step used in the associated global lake study.
+This repository is a chlorophyll-a (Chl-a) retrieval step used in global lake study.
 It contains source code, trained inference assets, and a small real Lake Erie
 dataset. The demo reads 11 Sentinel-3 OLCI/POLYMER water-reflectance bands and
 writes a NetCDF file containing DNN-estimated Chl-a.
