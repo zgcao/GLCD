@@ -1,25 +1,19 @@
 """Portable chlorophyll-a inference used by the Nature reviewer demo.
-
 This module preserves the numerical core of
 ``3-image_est_chl_examples_local.py`` while removing machine-specific paths.
 """
-
 from __future__ import annotations
-
 import json
 import platform
 import time
 from importlib.metadata import version
 from pathlib import Path
-
 import joblib
 import numpy as np
 import xarray as xr
 from tensorflow.keras.models import load_model
 
-
 WAVELENGTHS = (412, 443, 490, 510, 560, 620, 665, 681, 709, 754, 779)
-
 
 def _package_versions() -> dict[str, str]:
     names = ("tensorflow", "numpy", "scikit-learn", "joblib", "xarray", "netCDF4", "h5py")
