@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Run the portable Lake Erie chlorophyll-a reviewer demo."""
-
 from __future__ import annotations
-
 import argparse
 import os
 from pathlib import Path
@@ -12,9 +10,7 @@ os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
 
 from chl_estimator import estimate_chla, write_summary
 
-
 PACKAGE_ROOT = Path(__file__).resolve().parent
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
