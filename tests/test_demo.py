@@ -2,12 +2,10 @@
 """Small end-to-end integration test; no pytest installation is required."""
 
 from __future__ import annotations
-
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
-
 import numpy as np
 import xarray as xr
 
