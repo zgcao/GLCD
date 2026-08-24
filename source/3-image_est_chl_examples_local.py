@@ -11,6 +11,7 @@ import xarray as xr
 matplotlib.use('agg')
 sns.set_style(style='ticks')
 
+
 def img_est_chl(data, model, x_scaler, y_scaler):
     """Takes any number of input bands (shaped [Height, Width]) and
     returns the products for that image, in the same shape."""
